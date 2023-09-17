@@ -1,3 +1,4 @@
+/* styling index.html */
 body {
     background-image: url(Sunset-Mara.jpg);
     background-size: cover;
@@ -30,11 +31,59 @@ h1 {
     color: white;
 }
 
+h2 {
+    color: brown;
+    margin: 0;
+    padding: 0;
+}
+
 p {
     text-align: center;
     font-family: "Times New Roman", Times, serif;
-    padding: 250px;
+    padding: 50px;
 }
+
+header {
+    background-color: grey;
+    color: white;
+    padding: 15px;
+}
+
+footer {
+    color: gray;
+    text-align: center;
+
+}
+
+/* styling skills.html */
+.skills-paragraph {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    padding: 80px;
+}
+
+/* styling About.html */
+.unique-paragraph {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    padding: 50px;
+}
+
+.center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 20%;
+    border: 2px solid black;
+}
+
+
+/* Styling contacts.html */
+
 
 .container {
     display: flex;
@@ -45,7 +94,7 @@ p {
 form {
     width: 300px;
     border: 2px;
-    padding: 250px;
+    padding: 100px;
 }
 
 /* Styling of Skills.html */
@@ -54,6 +103,7 @@ ul {
     padding: 0%;
     margin: 0%;
     text-align: center;
+    color: black;
 }
 
 li {
@@ -62,4 +112,18 @@ li {
     font-weight: bold;
     display: inline-flexbox;
     text-align: center;
+}
+
+/* styling project.html */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    border: 10px solid grey;}
+    padding: 10px;
+
+.image-container img {
+    max-width: 80%; 
+    max-height: 100%; 
 }
