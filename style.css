@@ -1,14 +1,9 @@
-/* body {
-    background-color: rgb(134, 143, 140);
-}
- */
-
 body {
     background-image: url(Sunset-Mara.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center;
-    background-color: #cccccc;
-    height: 1000px;
 }
 
 header {
@@ -51,4 +46,20 @@ form {
     width: 300px;
     border: 2px;
     padding: 250px;
+}
+
+/* Styling of Skills.html */
+ul {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-flexbox;
+    text-align: center;
 }
