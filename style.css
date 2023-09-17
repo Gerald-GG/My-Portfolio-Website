@@ -1,5 +1,14 @@
+/* body {
+    background-color: rgb(134, 143, 140);
+}
+ */
+
 body {
-    background-color: aquamarine;
+    background-image: url(Sunset-Mara.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #cccccc;
+    height: 1000px;
 }
 
 header {
@@ -24,4 +33,10 @@ nav ul li {
 h1 {
     margin: 0;
     color: white;
+}
+
+p {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    padding: 250px;
 }
