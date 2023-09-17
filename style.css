@@ -40,3 +40,15 @@ p {
     font-family: "Times New Roman", Times, serif;
     padding: 250px;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 300px;
+    border: 2px;
+    padding: 250px;
+}
