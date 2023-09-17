@@ -1,0 +1,27 @@
+body {
+    background-color: aquamarine;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: slategrey;
+    color: purple;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+}
